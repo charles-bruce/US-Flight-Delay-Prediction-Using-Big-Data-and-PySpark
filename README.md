@@ -1,32 +1,23 @@
 # US-Flight-Delay-Prediction-Using-Big-Data-and-PySpark
 
-Project Structure
+A comprehensive project predicting flight delays in the US using big data techniques with PySpark. Includes data integration, exploratory analysis, geographical visualization, and machine learning models for classification, clustering, and regression.
 
-The repository is organized into multiple Jupyter Notebooks, each focusing on a specific component of the analysis:
+## Project Structure
 
-Data Integration: Merges data from various sources and performs initial cleaning to prepare it for analysis.
+- **Data Integration**: Combines multiple data sources and performs initial cleaning.  
+- **Exploratory Data Analysis (EDA)**: Investigates patterns, trends, and anomalies in the dataset.  
+- **Geographical Visualization**: Maps flight routes and delays to provide spatial insights.  
+- **Classification**: Implements algorithms to predict whether a flight will be delayed.  
+- **Clustering**: Groups flights to identify common characteristics of delayed flights.  
+- **Regression**: Predicts the duration of flight delays in minutes.  
 
-Exploratory Data Analysis (EDA): Explores the dataset to identify patterns, trends, and anomalies.
+## Data Source
 
-Geographical Visualization: Visualizes flight routes and delays on maps to provide spatial insights.
+- **Dataset**: [Airline Delay and Cancellation Data (2009–2018)](https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018)  
+- **Focus**: Only data from **2018** is used for analysis.  
 
-Classification: Implements classification algorithms to predict whether a flight will be delayed.
+## Technologies Used
 
-Clustering: Groups flights based on similarities to reveal common characteristics of delayed flights.
-
-Regression: Develops regression models to predict the duration of flight delays in minutes.
-
-
-
-Data Source
-
-The analysis uses the Airline Delay and Cancellation Data from 2009 to 2018
-, which contains detailed records of flight delays and cancellations in the United States. For this project, only data from 2018 is considered.
-
-Technologies Used
-
-PySpark: For large-scale distributed data processing.
-
-Python: For scripting and implementing machine learning models.
-
-Jupyter Notebooks: For interactive coding, analysis, and documentation.
+- **PySpark** – Large-scale distributed data processing  
+- **Python** – Scripting and machine learning implementation  
+- **Jupyter Notebooks** – Interactive development and analysis
